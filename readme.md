@@ -33,18 +33,4 @@ To use this project, follow these steps:
 
 You can now send POST requests to the model API with data for breast cancer classification.
 
-Example using Python requests:
-```python
-import requests
-
-data = {
-    # Provide the features required for classification
-}
-
-response = requests.post("http://localhost:8080/predict", json=data)
-
-if response status_code == 200:
-    result = response.json()
-    print("Predicted class:", result['prediction'])
-else:
-    print("Error:", response.text)
+Example using Python requests in the testapp file provided
